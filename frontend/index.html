@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover luxury cars at Sultan Ayun Showroom.">
+    <title>Sultan Ayun Showroom | Luxury Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN PAGE -->
+    <section id="login-section" class="login-section">
+        <div class="login-box">
+            <h1>SULTAN <span>AYUN</span></h1>
+            <p class="login-subtitle">PREMIUM CAR SHOWROOM</p>
+
+            <h2>Welcome Back</h2>
+            <p>Login to explore your dream car.</p>
+
+            <form id="login-form">
+                <input type="text" id="login-name"
+                    placeholder="Enter your name" required>
+
+                <input type="email" id="login-email"
+                    placeholder="Enter your email" required>
+
+                <button type="submit" class="shop-button">
+                    ENTER SHOWROOM
+                </button>
+            </form>
+
+            <p class="login-note">Discover luxury. Drive excellence.</p>
+        </div>
+    </section>
+
+    <!-- MAIN SHOWROOM -->
+    <div id="showroom-section" hidden>
+
+        <header class="navbar">
+            <div class="logo">SULTAN <span>AYUN</span></div>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#cars">Cars</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <button id="logout-button" type="button">Logout</button>
+        </header>
+
+        <section class="hero" id="home">
+            <p>WELCOME TO SULTAN AYUN SHOWROOM</p>
+            <h1>DRIVE YOUR<br>DREAMS.</h1>
+            <p>Luxury. Power. Performance.</p>
+            <a href="#cars" class="shop-button">EXPLORE CARS</a>
+        </section>
+
+        <section id="cars" class="cars-section">
+            <h2>OUR PREMIUM COLLECTION</h2>
+            <p>Discover your next dream car.</p>
+
+            <input type="search" id="car-search"
+                placeholder="Search your dream car...">
+
+            <div id="products-container">
+                Loading cars...
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>ABOUT SULTAN AYUN</h2>
+            <p>
+                Experience luxury, power and excellence.
+                Find the car that matches your lifestyle.
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2026 SULTAN AYUN SHOWROOM. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

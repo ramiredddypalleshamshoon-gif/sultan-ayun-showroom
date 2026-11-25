@@ -1,0 +1,13 @@
+{
+  "name": "sultan-ayun-showroom",
+  "version": "1.0.0",
+  "description": "Full-stack car showroom web application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.6"
+  }
+}
